@@ -7,18 +7,65 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B80779662B53EA24006000BB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80779652B53EA24006000BB /* Constants.swift */; };
+		B80779682B541416006000BB /* GardenScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80779672B541416006000BB /* GardenScreen.swift */; };
+		B807796A2B5424DC006000BB /* PlantLocationTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = B80779692B5424DC006000BB /* PlantLocationTag.swift */; };
+		B807796C2B54F596006000BB /* PlantCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = B807796B2B54F596006000BB /* PlantCard.swift */; };
+		B807796E2B54F5DA006000BB /* StarRating.swift in Sources */ = {isa = PBXBuildFile; fileRef = B807796D2B54F5DA006000BB /* StarRating.swift */; };
 		B8309CCD2AD4144F00CD98AE /* SproutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8309CCC2AD4144F00CD98AE /* SproutApp.swift */; };
 		B8309CCF2AD4144F00CD98AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8309CCE2AD4144F00CD98AE /* ContentView.swift */; };
 		B8309CD12AD4145100CD98AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8309CD02AD4145100CD98AE /* Assets.xcassets */; };
 		B8309CD42AD4145100CD98AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8309CD32AD4145100CD98AE /* Preview Assets.xcassets */; };
+		B8309CDB2AD415AC00CD98AE /* SplashScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8309CDA2AD415AC00CD98AE /* SplashScreen.swift */; };
+		B8309CDD2AD416E700CD98AE /* AuthScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8309CDC2AD416E700CD98AE /* AuthScreen.swift */; };
+		B8309CE82AD41AEE00CD98AE /* Onest-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8309CDF2AD41AEE00CD98AE /* Onest-ExtraLight.ttf */; };
+		B8309CE92AD41AEE00CD98AE /* Onest-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8309CE02AD41AEE00CD98AE /* Onest-Light.ttf */; };
+		B8309CEA2AD41AEE00CD98AE /* Onest-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8309CE12AD41AEE00CD98AE /* Onest-SemiBold.ttf */; };
+		B8309CEC2AD41AEE00CD98AE /* Onest-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8309CE32AD41AEE00CD98AE /* Onest-Medium.ttf */; };
+		B8309CED2AD41AEE00CD98AE /* Onest-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8309CE42AD41AEE00CD98AE /* Onest-Regular.ttf */; };
+		B8309CEE2AD41AEE00CD98AE /* Onest-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B8309CE52AD41AEE00CD98AE /* Onest-Bold.ttf */; };
+		B8309CF22AD4279800CD98AE /* PhoneNumberScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8309CF12AD4279800CD98AE /* PhoneNumberScreen.swift */; };
+		B8309CF52AD434DA00CD98AE /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8309CF42AD434DA00CD98AE /* PrimaryButton.swift */; };
+		B8309CF72AD4461F00CD98AE /* OTPScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8309CF62AD4461F00CD98AE /* OTPScreen.swift */; };
+		B8309CF92AD465B400CD98AE /* CollectInfoScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8309CF82AD465B400CD98AE /* CollectInfoScreen.swift */; };
+		B8309CFB2AD4691400CD98AE /* WelcomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8309CFA2AD4691400CD98AE /* WelcomeScreen.swift */; };
+		B84855DB2AFE8B6C00A284B1 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84855DA2AFE8B6C00A284B1 /* HomeScreen.swift */; };
+		B84855DF2B0F0BBB00A284B1 /* ImageViewer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84855DE2B0F0BBB00A284B1 /* ImageViewer.swift */; };
+		B84855E62B130B4F00A284B1 /* Navbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84855E52B130B4F00A284B1 /* Navbar.swift */; };
+		B8E6E6162B2B4E02001FC4E9 /* BlogsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E6E6152B2B4E02001FC4E9 /* BlogsScreen.swift */; };
+		B8E6E6182B2B57E4001FC4E9 /* DetailsScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E6E6172B2B57E4001FC4E9 /* DetailsScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B80779652B53EA24006000BB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B80779672B541416006000BB /* GardenScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GardenScreen.swift; sourceTree = "<group>"; };
+		B80779692B5424DC006000BB /* PlantLocationTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantLocationTag.swift; sourceTree = "<group>"; };
+		B807796B2B54F596006000BB /* PlantCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantCard.swift; sourceTree = "<group>"; };
+		B807796D2B54F5DA006000BB /* StarRating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRating.swift; sourceTree = "<group>"; };
 		B8309CC92AD4144F00CD98AE /* Sprout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sprout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8309CCC2AD4144F00CD98AE /* SproutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SproutApp.swift; sourceTree = "<group>"; };
 		B8309CCE2AD4144F00CD98AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B8309CD02AD4145100CD98AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8309CD32AD4145100CD98AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B8309CDA2AD415AC00CD98AE /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
+		B8309CDC2AD416E700CD98AE /* AuthScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthScreen.swift; sourceTree = "<group>"; };
+		B8309CDE2AD41AA100CD98AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B8309CDF2AD41AEE00CD98AE /* Onest-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Onest-ExtraLight.ttf"; sourceTree = "<group>"; };
+		B8309CE02AD41AEE00CD98AE /* Onest-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Onest-Light.ttf"; sourceTree = "<group>"; };
+		B8309CE12AD41AEE00CD98AE /* Onest-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Onest-SemiBold.ttf"; sourceTree = "<group>"; };
+		B8309CE32AD41AEE00CD98AE /* Onest-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Onest-Medium.ttf"; sourceTree = "<group>"; };
+		B8309CE42AD41AEE00CD98AE /* Onest-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Onest-Regular.ttf"; sourceTree = "<group>"; };
+		B8309CE52AD41AEE00CD98AE /* Onest-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Onest-Bold.ttf"; sourceTree = "<group>"; };
+		B8309CF12AD4279800CD98AE /* PhoneNumberScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberScreen.swift; sourceTree = "<group>"; };
+		B8309CF42AD434DA00CD98AE /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
+		B8309CF62AD4461F00CD98AE /* OTPScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPScreen.swift; sourceTree = "<group>"; };
+		B8309CF82AD465B400CD98AE /* CollectInfoScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectInfoScreen.swift; sourceTree = "<group>"; };
+		B8309CFA2AD4691400CD98AE /* WelcomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScreen.swift; sourceTree = "<group>"; };
+		B84855DA2AFE8B6C00A284B1 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
+		B84855DE2B0F0BBB00A284B1 /* ImageViewer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewer.swift; sourceTree = "<group>"; };
+		B84855E52B130B4F00A284B1 /* Navbar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navbar.swift; sourceTree = "<group>"; };
+		B8E6E6152B2B4E02001FC4E9 /* BlogsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogsScreen.swift; sourceTree = "<group>"; };
+		B8E6E6172B2B57E4001FC4E9 /* DetailsScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,10 +98,30 @@
 		B8309CCB2AD4144F00CD98AE /* Sprout */ = {
 			isa = PBXGroup;
 			children = (
+				B8E6E6172B2B57E4001FC4E9 /* DetailsScreen.swift */,
+				B8309CF32AD434C900CD98AE /* Widgets */,
+				B8309CE52AD41AEE00CD98AE /* Onest-Bold.ttf */,
+				B8309CDF2AD41AEE00CD98AE /* Onest-ExtraLight.ttf */,
+				B8309CE02AD41AEE00CD98AE /* Onest-Light.ttf */,
+				B8309CE32AD41AEE00CD98AE /* Onest-Medium.ttf */,
+				B8309CE42AD41AEE00CD98AE /* Onest-Regular.ttf */,
+				B8309CE12AD41AEE00CD98AE /* Onest-SemiBold.ttf */,
+				B8309CDE2AD41AA100CD98AE /* Info.plist */,
 				B8309CCC2AD4144F00CD98AE /* SproutApp.swift */,
 				B8309CCE2AD4144F00CD98AE /* ContentView.swift */,
+				B8309CDA2AD415AC00CD98AE /* SplashScreen.swift */,
+				B8309CDC2AD416E700CD98AE /* AuthScreen.swift */,
+				B8309CF12AD4279800CD98AE /* PhoneNumberScreen.swift */,
+				B8309CF62AD4461F00CD98AE /* OTPScreen.swift */,
+				B8309CF82AD465B400CD98AE /* CollectInfoScreen.swift */,
+				B8309CFA2AD4691400CD98AE /* WelcomeScreen.swift */,
 				B8309CD02AD4145100CD98AE /* Assets.xcassets */,
 				B8309CD22AD4145100CD98AE /* Preview Content */,
+				B84855DA2AFE8B6C00A284B1 /* HomeScreen.swift */,
+				B84855E52B130B4F00A284B1 /* Navbar.swift */,
+				B8E6E6152B2B4E02001FC4E9 /* BlogsScreen.swift */,
+				B80779652B53EA24006000BB /* Constants.swift */,
+				B80779672B541416006000BB /* GardenScreen.swift */,
 			);
 			path = Sprout;
 			sourceTree = "<group>";
@@ -65,6 +132,18 @@
 				B8309CD32AD4145100CD98AE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B8309CF32AD434C900CD98AE /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				B8309CF42AD434DA00CD98AE /* PrimaryButton.swift */,
+				B84855DE2B0F0BBB00A284B1 /* ImageViewer.swift */,
+				B80779692B5424DC006000BB /* PlantLocationTag.swift */,
+				B807796B2B54F596006000BB /* PlantCard.swift */,
+				B807796D2B54F5DA006000BB /* StarRating.swift */,
+			);
+			path = Widgets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,7 +205,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8309CD42AD4145100CD98AE /* Preview Assets.xcassets in Resources */,
+				B8309CE92AD41AEE00CD98AE /* Onest-Light.ttf in Resources */,
+				B8309CE82AD41AEE00CD98AE /* Onest-ExtraLight.ttf in Resources */,
 				B8309CD12AD4145100CD98AE /* Assets.xcassets in Resources */,
+				B8309CED2AD41AEE00CD98AE /* Onest-Regular.ttf in Resources */,
+				B8309CEC2AD41AEE00CD98AE /* Onest-Medium.ttf in Resources */,
+				B8309CEE2AD41AEE00CD98AE /* Onest-Bold.ttf in Resources */,
+				B8309CEA2AD41AEE00CD98AE /* Onest-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,7 +222,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8309CF52AD434DA00CD98AE /* PrimaryButton.swift in Sources */,
+				B8309CDB2AD415AC00CD98AE /* SplashScreen.swift in Sources */,
+				B8309CF72AD4461F00CD98AE /* OTPScreen.swift in Sources */,
+				B84855DF2B0F0BBB00A284B1 /* ImageViewer.swift in Sources */,
+				B8E6E6162B2B4E02001FC4E9 /* BlogsScreen.swift in Sources */,
+				B807796C2B54F596006000BB /* PlantCard.swift in Sources */,
+				B80779662B53EA24006000BB /* Constants.swift in Sources */,
+				B8309CFB2AD4691400CD98AE /* WelcomeScreen.swift in Sources */,
+				B8E6E6182B2B57E4001FC4E9 /* DetailsScreen.swift in Sources */,
+				B8309CF22AD4279800CD98AE /* PhoneNumberScreen.swift in Sources */,
+				B8309CF92AD465B400CD98AE /* CollectInfoScreen.swift in Sources */,
+				B84855DB2AFE8B6C00A284B1 /* HomeScreen.swift in Sources */,
+				B8309CDD2AD416E700CD98AE /* AuthScreen.swift in Sources */,
+				B807796A2B5424DC006000BB /* PlantLocationTag.swift in Sources */,
+				B84855E62B130B4F00A284B1 /* Navbar.swift in Sources */,
+				B807796E2B54F5DA006000BB /* StarRating.swift in Sources */,
 				B8309CCF2AD4144F00CD98AE /* ContentView.swift in Sources */,
+				B80779682B541416006000BB /* GardenScreen.swift in Sources */,
 				B8309CCD2AD4144F00CD98AE /* SproutApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +376,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Sprout/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sprout/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -302,6 +405,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"Sprout/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sprout/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
